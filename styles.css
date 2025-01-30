@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+body{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wakeUp{
+    font-family: "Oswald", sans-serif;
+    font-size: 400px;
+    text-align: center;
+    margin-top: -100px;
+    margin-bottom: 0px;
+    color: white;
+}
+
+.smallText{
+    font-family: "Oswald", sans-serif;
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    margin-top: -50px;
+}
+
+.arrowDown{
+    color: white;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    margin-top: -100px;
+}
+
+.arrowHome{
+    color: white;
+    font-size: 50px;
+    margin-left: 20px;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+
+.categories{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-evenly;
+    gap: 20px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+.categoryBtn, .timelineBtn{
+    width: 500px;
+    height: 70px;
+    background-color: rgb(31, 31, 31);
+    outline: none;
+    border: none;
+    color: white;
+    font-family: "Oswald", sans-serif;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.categoryBtn:hover, .timelineBtn:hover{
+    background-color: rgb(158, 0, 0);
+    color: rgb(0, 0, 0);
+}
+
+.timelineBtn{
+    grid-column: span 2;
+    width: 100%;
+}
+
+.timelineBtnContainer{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.headerText{
+    font-family: "Oswald", sans-serif;
+    color: white;
+    font-size: 80px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.text{
+    font-family: "Oswald", sans-serif;
+    color: white;
+}
+
+.infoContainer{
+    width: 80%;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.listHeader{
+    font-family: "Oswald", sans-serif;
+    color: white;
+    font-size: 25px;
+    margin-top: 50px;
+    margin-bottom: -10px;
+}
