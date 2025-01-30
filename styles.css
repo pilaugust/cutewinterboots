@@ -10,7 +10,7 @@ body{
 
 .wakeUp{
     font-family: "Oswald", sans-serif;
-    font-size: 400px;
+    font-size: 350px;
     text-align: center;
     margin-top: -100px;
     margin-bottom: 0px;
@@ -65,6 +65,7 @@ body{
 .categoryBtn:hover, .timelineBtn:hover{
     background-color: rgb(158, 0, 0);
     color: rgb(0, 0, 0);
+    color: white;
 }
 
 .timelineBtn{
@@ -105,4 +106,24 @@ body{
     font-size: 25px;
     margin-top: 50px;
     margin-bottom: -10px;
+}
+
+.quickExit{
+    display: flex;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+    height: 100vh;
+    width: 20px;
+}
+
+.quickExitBtn{
+    background-color: rgb(158, 0, 0);
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-family: "Oswald", sans-serif;
+    font-size: 30px;
+    color: white;
 }
